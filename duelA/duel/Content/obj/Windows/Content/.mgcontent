@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/jauchw/Desktop/duelA/duel/Content/button.png</File>
+    <File>C:/Users/jauchw/Desktop/duelA/duel/Content/compteur.spritefont</File>
+    <File>C:/Users/jauchw/Desktop/duelA/duel/Content/File.spritefont</File>
+    <File>C:/Users/jauchw/Desktop/duelA/duel/Content/finPartie.spritefont</File>
+    <File>C:/Users/jauchw/Desktop/duelA/duel/Content/laserRouge.png</File>
+    <File>C:/Users/jauchw/Desktop/duelA/duel/Content/vieP1.spritefont</File>
+    <File>C:/Users/jauchw/Desktop/duelA/duel/Content/vieP2.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>finPartie.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/backgroundDuel.png","C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/bin/Windows/backgroundDuel.xnb","TextureProcessor","Texture2DContent",261644,7513885,0,2696274
+"C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/File.spritefont","C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/bin/Windows/finPartie.xnb","FontDescriptionProcessor","SpriteFontContent",2426,939,0,1314779
+"C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/finPartie.spritefont","C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/bin/Windows/finPartie.xnb","FontDescriptionProcessor","SpriteFontContent",2005,136209,0,0377598

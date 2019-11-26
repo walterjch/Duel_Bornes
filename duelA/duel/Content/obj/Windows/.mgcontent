@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/backgroundDuel.png</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/explosion.png</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/laser.png</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/musiqueJeu.mp3</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/sonExplosion.wav</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/sonLaser.wav</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/tankP1.png</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/tankP2.png</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/button.png</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/compteur.spritefont</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/File.spritefont</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/finPartie.spritefont</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/laserRouge.png</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/vieP1.spritefont</File>
+    <File>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/vieP2.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>backgroundDuel.png</File>
+    <File>explosion.png</File>
+    <File>laser.png</File>
+    <File>musiqueJeu.mp3</File>
+    <File>sonExplosion.wav</File>
+    <File>sonLaser.wav</File>
+    <File>tankP1.png</File>
+    <File>tankP2.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>finPartie.spritefont</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

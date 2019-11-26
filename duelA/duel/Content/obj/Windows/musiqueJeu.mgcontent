@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/../../../Ressources/musiqueJeu.mp3</SourceFile>
+  <SourceTime>2019-10-08T16:39:52.5915363+02:00</SourceTime>
+  <DestFile>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/bin/Windows/musiqueJeu.xnb</DestFile>
+  <DestTime>2019-10-30T14:27:33.424005+01:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/chopardp_info/source/repos/mardiGarchery/duelA/duel/Content/bin/Windows/musiqueJeu.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>
