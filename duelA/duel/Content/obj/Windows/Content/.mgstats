@@ -1,8 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/jauchw/Desktop/duelA/duel/Content/button.png","C:/Users/jauchw/Desktop/duelA/duel/Content/bin/Windows/Content/button.xnb","TextureProcessor","Texture2DContent",324,25685,0,4967134
-"C:/Users/jauchw/Desktop/duelA/duel/Content/compteur.spritefont","C:/Users/jauchw/Desktop/duelA/duel/Content/bin/Windows/Content/compteur.xnb","FontDescriptionProcessor","SpriteFontContent",2006,1053713,0,3468009
-"C:/Users/jauchw/Desktop/duelA/duel/Content/File.spritefont","C:/Users/jauchw/Desktop/duelA/duel/Content/bin/Windows/Content/finPartie.xnb","FontDescriptionProcessor","SpriteFontContent",2426,939,0,017989
-"C:/Users/jauchw/Desktop/duelA/duel/Content/finPartie.spritefont","C:/Users/jauchw/Desktop/duelA/duel/Content/bin/Windows/Content/finPartie.xnb","FontDescriptionProcessor","SpriteFontContent",2005,136209,0,0399777
-"C:/Users/jauchw/Desktop/duelA/duel/Content/laserRouge.png","C:/Users/jauchw/Desktop/duelA/duel/Content/bin/Windows/Content/laserRouge.xnb","TextureProcessor","Texture2DContent",1268,3029,0,0059865
-"C:/Users/jauchw/Desktop/duelA/duel/Content/vieP1.spritefont","C:/Users/jauchw/Desktop/duelA/duel/Content/bin/Windows/Content/vieP1.xnb","FontDescriptionProcessor","SpriteFontContent",2008,70673,0,0409766
-"C:/Users/jauchw/Desktop/duelA/duel/Content/vieP2.spritefont","C:/Users/jauchw/Desktop/duelA/duel/Content/bin/Windows/Content/vieP2.xnb","FontDescriptionProcessor","SpriteFontContent",2008,70673,0,0449735
+"C:/Users/Administrateur/source/repos/duelA/duel/Content/File.spritefont","C:/Users/Administrateur/source/repos/duelA/duel/Content/bin/Windows/Content/finPartie.xnb","FontDescriptionProcessor","SpriteFontContent",2426,939,0,2548531
+"C:/Users/Administrateur/source/repos/duelA/duel/Content/finPartie.spritefont","C:/Users/Administrateur/source/repos/duelA/duel/Content/bin/Windows/Content/finPartie.xnb","FontDescriptionProcessor","SpriteFontContent",2005,136209,0,0609654
