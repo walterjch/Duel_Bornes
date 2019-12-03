@@ -371,8 +371,8 @@ namespace duel
                         AddExplosionP1(_faisceauLaserP1[i]._position);
                         //On joue un son d'explosion
                         _sonExplosionInstance.Play();
-                        //On enlève 10 points de vie au joueur 2
-                        _joueur2._vie -= 10;
+                        //On enlève 1 points de vie au joueur 2
+                        _joueur2._vie --;
                         //On supprime le laser en question de la liste
                         _faisceauLaserP1.Remove(_faisceauLaserP1[i]);
                         break;
@@ -404,8 +404,8 @@ namespace duel
                         AddExplosionP2(_faisceauLaserP2[j]._position);
                         //On joue un son d'explosion
                         _sonExplosionInstance.Play();
-                        //Enlève 10 points de vie au joueur 1
-                        _joueur1._vie -= 10;
+                        //Enlève 1 points de vie au joueur 1
+                        _joueur1._vie --;
                         //On supprime le laser en question de la liste
                         _faisceauLaserP2.Remove(_faisceauLaserP2[j]);
                         break;

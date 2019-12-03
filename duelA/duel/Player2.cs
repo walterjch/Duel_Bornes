@@ -8,7 +8,7 @@ namespace duel
     {
         public Vector2 vitesse = new Vector2(15, 15);
 
-        public float _vie = 50;
+        public float _vie = 5;
         public string _nom = "JOUEUR 2";
 
         KeyboardState etatClavierActuel;
