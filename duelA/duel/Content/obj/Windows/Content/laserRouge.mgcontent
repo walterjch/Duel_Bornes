@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/laserRouge.png</SourceFile>
-  <SourceTime>2019-11-26T13:28:46.5058769+01:00</SourceTime>
-  <DestFile>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/bin/Windows/Content/laserRouge.xnb</DestFile>
-  <DestTime>2019-11-26T13:29:11.966106+01:00</DestTime>
+  <SourceFile>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/laserRouge.png</SourceFile>
+  <SourceTime>2019-11-26T11:16:32.6864864+01:00</SourceTime>
+  <DestFile>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/bin/Windows/Content/laserRouge.xnb</DestFile>
+  <DestTime>2019-12-10T14:45:40.5373027+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

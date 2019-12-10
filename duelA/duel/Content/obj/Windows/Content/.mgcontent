@@ -4,23 +4,29 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/backgroundDuel.png</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/button.png</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/compteur.spritefont</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/explosion.png</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/File.spritefont</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/finPartie.spritefont</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/laser.png</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/laserRouge.png</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/musiqueJeu.mp3</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/sonExplosion.wav</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/sonLaser.wav</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/tankP1.png</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/tankP2.png</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/vieP1.spritefont</File>
-    <File>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/vieP2.spritefont</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/backgroundDuel.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/button.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/compteur.spritefont</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/exit.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/explosion.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/File.spritefont</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/finPartie.spritefont</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/laser.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/laserRouge.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/musiqueJeu.mp3</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/restart.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/sonExplosion.wav</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/sonLaser.wav</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/start.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/tankP1.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/tankP2.png</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/vieP1.spritefont</File>
+    <File>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/vieP2.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

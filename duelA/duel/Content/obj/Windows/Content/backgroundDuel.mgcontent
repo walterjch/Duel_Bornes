@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/backgroundDuel.png</SourceFile>
-  <SourceTime>2019-12-03T13:40:17.6981437+01:00</SourceTime>
-  <DestFile>C:/Users/jauchw/Desktop/PortesOuvertes/Duel_Bornes/duelA/duel/Content/bin/Windows/Content/backgroundDuel.xnb</DestFile>
-  <DestTime>2019-12-03T13:59:37.04888+01:00</DestTime>
+  <SourceFile>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/backgroundDuel.png</SourceFile>
+  <SourceTime>2019-12-10T13:44:32.1090554+01:00</SourceTime>
+  <DestFile>C:/Users/Administrateur/Desktop/git/Duel_Bornes/duelA/duel/Content/bin/Windows/Content/backgroundDuel.xnb</DestFile>
+  <DestTime>2019-12-10T14:45:40.0505832+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

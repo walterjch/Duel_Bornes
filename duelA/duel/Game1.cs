@@ -32,6 +32,9 @@ namespace duel
         VieP1 _vieP1;
         VieP2 _vieP2;
 
+        List<Arrow> arrows;
+        Arrow arrow;
+
         //Déclare le message/menu de fin 
         SpriteFont _messageFin;
 
@@ -105,7 +108,7 @@ namespace duel
 
             _graphics.ApplyChanges();
 
-            
+            arrows = new List<Arrow>();
 
             //Initialise la vie des 2 joueurs
             _vieP1 = new VieP1();
@@ -186,6 +189,16 @@ namespace duel
             //Commencer la lecture de la musique
             MediaPlayer.Volume = 1.0f;
             MediaPlayer.Play(_musiqueJeu);
+
+            arrow = new Arrow();
+            arrow.Initialize(Content.Load<Texture2D>("exit"), new Vector2(GraphicsDevice.Viewport.Width - GraphicsDevice.Viewport.Width / 5 - 100, GraphicsDevice.Viewport.Height - 100), 45);
+            arrows.Add(arrow);
+            arrow = new Arrow();
+            arrow.Initialize(Content.Load<Texture2D>("start"), new Vector2(GraphicsDevice.Viewport.Width / 2 - 50, GraphicsDevice.Viewport.Height - 100), 76);
+            arrows.Add(arrow);
+            arrow = new Arrow();
+            //arrow.Initialize(Content.Load<Texture2D>("restart"), new Vector2(GraphicsDevice.Viewport.Width / 5, GraphicsDevice.Viewport.Height - 100), 10);
+            //arrows.Add(arrow);
         }
 
         /// <summary>
@@ -301,8 +314,13 @@ namespace duel
             int decalageTexte = 600;
             btnOn = true;
             _spriteBatch.DrawString(_messageFin, "BRAVO, " + nomJoueur + " REMPORTE LA VICTOIRE !" , new Vector2((GraphicsDevice.Viewport.Width / 2) - decalageTexte, GraphicsDevice.Viewport.Height / 2), Color.Black);
-            _spriteBatch.DrawString(_messageFin, "RECOMMENCER ($)", new Vector2((GraphicsDevice.Viewport.Width / 2) - decalageTexte, (GraphicsDevice.Viewport.Height / 2) + 50), Color.Black);
-            _spriteBatch.DrawString(_messageFin, "QUITTER (BOUTON DE DROITE)", new Vector2((GraphicsDevice.Viewport.Width / 2) - decalageTexte, (GraphicsDevice.Viewport.Height / 2) + 100), Color.Black);
+            //_spriteBatch.DrawString(_messageFin, "RECOMMENCER ($)", new Vector2((GraphicsDevice.Viewport.Width / 2) - decalageTexte, (GraphicsDevice.Viewport.Height / 2) + 50), Color.Black);
+            //_spriteBatch.DrawString(_messageFin, "QUITTER (BOUTON DE DROITE)", new Vector2((GraphicsDevice.Viewport.Width / 2) - decalageTexte, (GraphicsDevice.Viewport.Height / 2) + 100), Color.Black);
+
+            foreach (Arrow a in arrows)
+            {
+                a.Draw(_spriteBatch);
+            }
         }
 
         /// <summary>
@@ -363,6 +381,10 @@ namespace duel
                     timer = 0f;
                     Initialize();
                     LoadContent();
+                }
+                foreach (Arrow a in arrows)
+                {
+                    a.Update(gameTime);
                 }
             }
             //Sinon si le compteur à rebours est fini, on met tout à jour
@@ -521,12 +543,14 @@ namespace duel
             {
                 //On affiche le menu adapté à celui-ci
                 AfficherMenu(_joueur2._nom);
+                
             }
             //Sinon si le joueur 2 n'a plus de vie
             else if (_joueur2._vie <= 0)
             {
                 //On affiche le menu adapté à celui-ci
                 AfficherMenu(_joueur1._nom);
+                
             }
             //Sinon
             else
