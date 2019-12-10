@@ -313,26 +313,31 @@ namespace duel
         {
             timer += (float)gameTime.ElapsedGameTime.TotalSeconds;
             compteurTemps -= (int)timer;
-            if (timer >= 3f)
+            if (timer >= 4f)
             {
                 compteur = 0;
                 message = string.Empty;
                 compteurActif = false;
             }
-            else if (timer >= 2f)
+            else if (timer >= 3f)
             {
                 compteur = 1;
-                message = "FEU !!!!";
+                message = "TIREZ";
+            }
+            else if (timer >= 2f)
+            {
+                compteur = 2;
+                message = "    1  ";
             }
             else if (timer >= 1f)
             {
-                compteur = 2;
-                message = "PARTEZ ?";
+                compteur = 3;
+                message = "    2  ";
             }
             else if (timer >= 0f)
             {
                 compteur = 3;
-                message = "PRET ?";
+                message = "    3  ";
             }
         }
 
