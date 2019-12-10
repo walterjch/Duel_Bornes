@@ -12,6 +12,10 @@ namespace duel
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
+    /// 
+
+    public enum ScreenState {TitleScreen, Playing, EndScreen};
+
     public class Game1 : Game
     {
         //Sers pour la résolution du background
@@ -38,6 +42,7 @@ namespace duel
         private int compteur = 3;
         private bool compteurActif = true;
         private string message = "";
+
 
         //Background _background;
         Texture2D _background;
@@ -79,6 +84,7 @@ namespace duel
 
         //Ett bouton recommencer
         bool btnOn = false;
+        private ScreenState currentScreenState = ScreenState.TitleScreen;
 
         public Game1()
         {
@@ -98,6 +104,8 @@ namespace duel
             _graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
 
             _graphics.ApplyChanges();
+
+            
 
             //Initialise la vie des 2 joueurs
             _vieP1 = new VieP1();
@@ -485,6 +493,22 @@ namespace duel
 
             //Dessine le background
             _spriteBatch.Draw(_background, new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height), Color.White);
+
+            switch (currentScreenState)
+            {
+                case ScreenState.TitleScreen:
+                    break;
+                case ScreenState.Playing:
+                    break;
+                case ScreenState.EndScreen:
+                    break;
+                default:
+                    break;
+            }
+
+
+
+            
 
             
             //Si le joueur 1 n'a plus de vie
